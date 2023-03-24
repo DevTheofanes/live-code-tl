@@ -1,9 +1,13 @@
-import { AxiosResponse } from 'axios'
-
 /**
  * Tipar corretamente interfaces
 */
-interface IUser {}
+interface IUser {
+  id: number;
+  name: string;
+  username: string;
+  email: string;
+  company: string;
+}
 
 type TFetchUsers = () => any
 

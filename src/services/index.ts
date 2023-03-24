@@ -1,9 +1,7 @@
-import axios from "axios"
-import { TFetchUsers } from "../interfaces"
+import { TFetchUsers } from '../interfaces';
 
-const apiUrl = 'https://jsonplaceholder.typicode.com'
-
+const usersEndpoint = "/api/users"
 /**
- * Construir função referente a chamada do AXIOS e utilizar
+ * Construir função referente a chamada fetch em users e utilizar
  * o endpoint descrito acima.
  */
