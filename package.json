@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "@types/jest": "^29.5.0",
     "@types/node": "18.15.7",
     "@types/react": "18.0.29",
     "@types/react-dom": "18.0.11",
@@ -17,6 +20,7 @@
     "next": "13.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-scripts": "^5.0.1",
     "react-spinners": "^0.13.8",
     "styled-components": "^5.3.9",
     "typescript": "5.0.2"
