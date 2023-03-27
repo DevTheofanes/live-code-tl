@@ -6,7 +6,9 @@ interface IUser {
   name: string;
   username: string;
   email: string;
-  company: string;
+  company: string | null;
+  address: string | null;
+  phone: string;
 }
 
 type TFetchUsers = () => any

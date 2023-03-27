@@ -1,106 +1,130 @@
 [
-    {
-      "id": 1,
-      "name": "Leanne Graham",
-      "user_name": "Bret",
-      "email": "Sincere@april.biz",
-      "phone": "1-770-736-8031 x56442",
-      "fkCompany": {
-        "name": "Romaguera-Crona",
-        "catchPhrase": "Multi-layered client-server neural-net",
-        "bs": "harness real-time e-markets"
-      }
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "user_name": "Bret",
+    "email": "Sincere@april.biz",
+    "phone": "1-770-736-8031 x56442",
+    "fkAddress": {
+      "street": "Kulas Light"
     },
-    {
-      "id": 2,
-      "name": "Ervin Howell",
-      "user_name": "Antonette",
-      "email": "Shanna@melissa.tv",
-      "phone": "010-692-6593 x09125",
-      "fkCompany": null
-    },
-    {
-      "id": 3,
-      "name": "Clementine Bauch",
-      "user_name": "Samantha",
-      "email": "Nathan@yesenia.net",
-      "phone": "1-463-123-4447",
-      "fkCompany": {
-        "name": "Romaguera-Jacobson",
-        "catchPhrase": "Face to face bifurcated interface",
-        "bs": "e-enable strategic applications"
-      }
-    },
-    {
-      "id": 4,
-      "name": "Patricia Lebsack",
-      "user_name": "Karianne",
-      "email": "Julianne.OConner@kory.org",
-      "phone": "493-170-9623 x156",
-      "fkCompany": {
-        "name": "Robel-Corkery",
-        "catchPhrase": "Multi-tiered zero tolerance productivity",
-        "bs": "transition cutting-edge web services"
-      }
-    },
-    {
-      "id": 5,
-      "name": "Chelsey Dietrich",
-      "user_name": "Kamren",
-      "email": "Lucio_Hettinger@annie.ca",
-      "phone": "(254)954-1289",
-      "fkCompany": {
-        "name": "Keebler LLC",
-        "catchPhrase": "User-centric fault-tolerant solution",
-        "bs": "revolutionize end-to-end systems"
-      }
-    },
-    {
-      "id": 6,
-      "name": "Mrs. Dennis Schulist",
-      "user_name": "Leopoldo_Corkery",
-      "email": "Karley_Dach@jasper.info",
-      "phone": "1-477-935-8478 x6430",
-      "fkCompany": null
-    },
-    {
-      "id": 7,
-      "name": "Kurtis Weissnat",
-      "user_name": "Elwyn.Skiles",
-      "email": "Telly.Hoeger@billy.biz",
-      "phone": "210.067.6132",
-      "fkCompany": null
-    },
-    {
-      "id": 8,
-      "name": "Nicholas Runolfsdottir V",
-      "user_name": "Maxime_Nienow",
-      "email": "Sherwood@rosamond.me",
-      "phone": "586.493.6943 x140",
-      "fkCompany": {
-        "name": "Abernathy Group",
-        "catchPhrase": "Implemented secondary concept",
-        "bs": "e-enable extensible e-tailers"
-      }
-    },
-    {
-      "id": 9,
-      "name": "Glenna Reichert",
-      "user_name": "Delphine",
-      "email": "Chaim_McDermott@dana.io",
-      "phone": "(775)976-6794 x41206",
-      "fkCompany": {
-        "name": "Yost and Sons",
-        "catchPhrase": "Switchable contextually-based project",
-        "bs": "aggregate real-time technologies"
-      }
-    },
-    {
-      "id": 10,
-      "name": "Clementina DuBuque",
-      "user_name": "Moriah.Stanton",
-      "email": "Rey.Padberg@karina.biz",
-      "phone": "024-648-3804",
-      "fkCompany": null
+    "fkCompany": {
+      "name": "Romaguera-Crona",
+      "catchPhrase": "Multi-layered client-server neural-net",
+      "bs": "harness real-time e-markets"
     }
-  ]
+  },
+  {
+    "id": 2,
+    "name": "Ervin Howell",
+    "user_name": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "phone": "010-692-6593 x09125",
+    "fkAddress": {
+      "street": "Victor Plains"
+    },
+    "fkCompany": null
+  },
+  {
+    "id": 3,
+    "name": "Clementine Bauch",
+    "user_name": "Samantha",
+    "email": "Nathan@yesenia.net",
+    "phone": "1-463-123-4447",
+    "fkAddress": null,
+    "fkCompany": {
+      "name": "Romaguera-Jacobson",
+      "catchPhrase": "Face to face bifurcated interface",
+      "bs": "e-enable strategic applications"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "user_name": "Karianne",
+    "email": "Julianne.OConner@kory.org",
+    "phone": "493-170-9623 x156",
+    "fkAddress": {
+      "street": "Douglas Extension"
+    },
+    "fkCompany": {
+      "name": "Robel-Corkery",
+      "catchPhrase": "Multi-tiered zero tolerance productivity",
+      "bs": "transition cutting-edge web services"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "user_name": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "phone": "(254)954-1289",
+    "fkAddress": null,
+    "fkCompany": {
+      "name": "Keebler LLC",
+      "catchPhrase": "User-centric fault-tolerant solution",
+      "bs": "revolutionize end-to-end systems"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "user_name": "Leopoldo_Corkery",
+    "email": "Karley_Dach@jasper.info",
+    "phone": "1-477-935-8478 x6430",
+    "fkAddress": {
+      "street": "Hoeger Mall"
+    },
+    "fkCompany": null
+  },
+  {
+    "id": 7,
+    "name": "Kurtis Weissnat",
+    "user_name": "Elwyn.Skiles",
+    "email": "Telly.Hoeger@billy.biz",
+    "phone": "210.067.6132",
+    "fkAddress": {
+      "street": "Kulas Light"
+    },
+    "fkCompany": null
+  },
+  {
+    "id": 8,
+    "name": "Nicholas Runolfsdottir V",
+    "user_name": "Maxime_Nienow",
+    "email": "Sherwood@rosamond.me",
+    "phone": "586.493.6943 x140",
+    "fkAddress": {
+      "street": "Skiles Walks"
+    },
+    "fkCompany": {
+      "name": "Abernathy Group",
+      "catchPhrase": "Implemented secondary concept",
+      "bs": "e-enable extensible e-tailers"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Glenna Reichert",
+    "user_name": "Delphine",
+    "email": "Chaim_McDermott@dana.io",
+    "phone": "(775)976-6794 x41206",
+    "fkAddress": null,
+    "fkCompany": {
+      "name": "Yost and Sons",
+      "catchPhrase": "Switchable contextually-based project",
+      "bs": "aggregate real-time technologies"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Clementina DuBuque",
+    "user_name": "Moriah.Stanton",
+    "email": "Rey.Padberg@karina.biz",
+    "phone": "024-648-3804",
+    "fkAddress": {
+      "street": "Rex Trail"
+    },
+    "fkCompany": null
+  }
+]
