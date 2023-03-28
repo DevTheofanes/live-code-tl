@@ -1,4 +1,4 @@
-# Frontend Developer - Test
+# TechLeader Developer - Test
 ![Albert Einstein Logo](https://cockpit-asset.s3.amazonaws.com/images/logo_ae_branco.svg)
 
 ## Detalhes ##
@@ -7,6 +7,9 @@
 - Exibir listagem de usuários
 - Chamada na API deve estar em uma função isolada contendo lógica da API do next
 - Chamada do click do botão deve estar no contexto e o state que armazenará os users também.
+- Fazer uma requisição de **POST** na pagina "backendTest" para adicionar um novo usuário
+- Fazer uma requisição de **PUT** na pagina "backendTest" para alterar o ultimo registro de usuário
+- Fazer uma requisição de **DELETE** na pagina "backendTest" para remover o ultimo registro de usuário
 
 ## Informações técnicas ##
 - Fazer as requisições necessárias na API do next dentro do próprio projeto.
@@ -21,6 +24,8 @@
 - Utilizar **TypeScript**.
 - Utilizar regras e padrões de **ESLint** e/ou **Prettier**.
 - Ter testes funcionais utilizando **Jest** e **React Testing Library**
+- Retornar statusCode corretos nos endpoints
+- Retornar tratativa de erros nos endpoints
 
 ## Layout ##
 Tela inicial

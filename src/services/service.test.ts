@@ -1,6 +1,4 @@
-import axios from 'axios'
-
 /**
- * Construir teste referente a chamada feita pelo AXIOS
+ * Construir teste referente ao fetch a API
  * Utilizar Jest
  */

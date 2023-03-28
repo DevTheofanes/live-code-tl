@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 import { ClipLoader } from 'react-spinners'
 import { useGlobalContext } from '../../context'
@@ -35,6 +36,8 @@ export const Users: React.FC = () => {
           Buscar usuários
         </button>
       </div>
+
+      <Link href="/backendTest">Ver teste backend</Link>
     </Container>
   )
 }
