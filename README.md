@@ -24,6 +24,7 @@
 - Utilizar **TypeScript**.
 - Utilizar regras e padrões de **ESLint** e/ou **Prettier**.
 - Ter testes funcionais utilizando **Jest** e **React Testing Library**
+- Utilizar **fs** e **path** para manipular o arquivo data.json.
 - Retornar statusCode corretos nos endpoints
 - Retornar tratativa de erros nos endpoints
 
